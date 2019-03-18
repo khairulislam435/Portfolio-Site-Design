@@ -1,0 +1,300 @@
+
+h1, h2, h3, h4, h5, h6,p{
+    margin: 0;
+}
+body {
+    background:#fff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color:#202020;
+    font-size:14px;
+    font-weight:400;
+    line-height: 21px;
+}
+
+/*starting point*/
+
+
+.logo {
+    width:120px;
+    margin:0 auto;
+}
+
+.logo a {
+    display: block;
+    height: 140px;
+    width: 120px;
+}
+
+.logo a img{
+    border-radius: 15px;
+}
+
+.intro{
+    text-align: center;
+    padding: 40px 0;
+    background: #f1f1f1;
+}
+
+.intro h1 {
+    font-size: 62px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.intro h1 span {
+    font-weight: 300;
+}
+
+.intro h3 {
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.intro h3 strong {
+    font-weight: 600;
+}
+
+.borhan-img {
+    width: 202px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.exp {
+    padding-bottom: 20px;
+    line-height: 19px;
+    font-size: 15px;
+}
+
+.slogan {
+    max-width: 400px;
+    margin:0 auto;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.upwork-profile {
+    background:#6fda44;
+    width: 100%;
+}
+
+.upwork {
+    padding-left:55px;
+    padding-right:20px;
+    padding-top:39px;
+    padding-bottom:46px;
+    color:#fff;
+    text-align:center;
+}
+.upwork img {
+    margin-bottom:20px;
+}
+.upwork h3 {
+    font-size:31px;
+    font-weight:400;
+    clear:both;
+    margin-bottom:15px;
+}
+.upwork span {
+    color:#202020;
+    font-weight:700;
+}
+
+.upwork a {
+    display:inline-block;
+    line-height:49px;
+    background:#202020 url(../img/icon_button.png) no-repeat right center;
+    color:#fff;
+    padding:0 50px 0 28px;
+    border-bottom:4px solid #000;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    margin-top:15px;
+}
+.upwork a:hover {
+    background:#000 url(../img/icon_button.png) no-repeat right center;
+    border-bottom:4px solid #202020;
+}
+
+.myworks-slider-one{
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+.myworks-details {
+    padding: 12px 0 0 45px;
+    float: left;
+}
+
+.myworks-details h2 {
+    font-weight: 700;
+    color: #f90;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.myworks-details h2 span {
+    font-weight: 300;
+    color: #202020;
+}
+
+.myworks-details p {
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.get-started a {
+    display:inline-block;
+    line-height:49px;
+    background:#202020 url(../img/icon_button.png) no-repeat right center;
+    color:#fff;
+    padding:0 50px 0 28px;
+    border-bottom:4px solid #000;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    margin-top:15px;
+}
+.get-started a:hover {
+    background:#000 url(../img/icon_button.png) no-repeat right center;
+    border-bottom:4px solid #202020;
+}
+
+.myworks-details-com {
+    padding: 12px 45px 0 15px;
+}
+
+.mywork-padding{
+    padding:20px 0;
+}
+
+.mywork-color-bg{
+    background-color: #f1f1f1;
+}
+
+.contact-bg{
+    background: #f1f1f1;
+    padding:50px 0;
+    color: #202020;
+}
+
+.contact-me {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-me p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 15px;
+    max-width:600px;
+    margin:auto;
+}
+
+.contact-me h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f90;
+}
+
+.contact-me h2 {
+    display: inline-block;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    color: #f90;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-me h6 span {
+    color:#f90;
+}
+
+.contact-me h2 span {
+    font-weight: 300;
+    color: #202020;
+}
+
+.form-area {
+    max-width:650px;
+    margin:auto;
+}
+
+.connectbox {
+    overflow:hidden;
+    width:100%;
+    text-align:center;
+}
+
+.connectbox a {
+    float:left;
+    width:50%;
+    height:147px;
+    display:block;
+    background:#1cb9e6;
+    padding-top:97px;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:600;
+    line-height:17px;
+    text-decoration:none;
+}
+.connectbox a span {
+    font-size:10px;
+    display:block;
+    line-height:11px;
+    color:#fff;
+}
+
+.connectbox a:hover{
+    background:#000;
+}
+
+.connectbox a.skype {background:#1cb9e6 url(../img/skype.png) no-repeat top center;color:#fff;}
+.connectbox a.facebook {background:#2f5caf url(../img/facebook.png) no-repeat top center;color:#fff;}
+.connectbox a.upworkC {background:#00b22d url(../img/upworkC.png) no-repeat top center;color:#fff;}
+.connectbox a.upworkC span {color:#fff;}
+.connectbox a.google {background:#db4437 url(../img/google.png) no-repeat top center;height:147px;color:#fff;}
+.connectbox a:hover,
+.connectbox a:focus {opacity:0.5;}
+
+.footer {
+    background: #202020;
+    padding: 20px 0;
+}
+
+.copyright-area{
+    text-align: center;
+}
+
+.copyright-area p {
+    padding: 0;
+    font-size:13px;
+    color: #fff;
+    line-height: 21px;
+
+
+}
+
+.copyright-area a {
+    color: #fff;
+    transition: 1s;
+}
+
+.copyright-area a:hover {
+    text-decoration: underline;
+    color: #29d2e5;
+}
+
